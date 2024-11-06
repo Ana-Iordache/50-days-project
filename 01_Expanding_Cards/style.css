@@ -52,6 +52,8 @@ body {
 
 .panel.active h3 {
     opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+    /* 0.3s is the duration, 0.4s is the delay */
 }
 
 @media(max-width: 480px) {
